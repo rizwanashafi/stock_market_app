@@ -18,6 +18,7 @@ from sklearn.metrics import mean_squared_error
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
+import tensorflow as tf
 
 # setting the side bar to collapsed taa k footer jo ha wo sahi dikhay
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
